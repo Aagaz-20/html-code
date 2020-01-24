@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>3d slider effect</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<!-- <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="swiper.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<!-- <link rel="stylesheet" type="text/css" href="style3.css"> -->
+<script src="jsfile.js"></script>
+</head>
+<body>
+  <svg id="logo" width="581" height="111" viewBox="0 0 581 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M85.12 34.72C82.336 28.864 78.304 24.352 73.024 21.184C67.744 17.92 61.6 16.288 54.592 16.288C47.584 16.288 41.248 17.92 35.584 21.184C30.016 24.352 25.6 28.96 22.336 35.008C19.168 40.96 17.584 47.872 17.584 55.744C17.584 63.616 19.168 70.528 22.336 76.48C25.6 82.432 30.016 87.04 35.584 90.304C41.248 93.472 47.584 95.056 54.592 95.056C64.384 95.056 72.448 92.128 78.784 86.272C85.12 80.416 88.816 72.496 89.872 62.512H49.84V51.856H103.84V61.936C103.072 70.192 100.48 77.776 96.064 84.688C91.648 91.504 85.84 96.928 78.64 100.96C71.44 104.896 63.424 106.864 54.592 106.864C45.28 106.864 36.784 104.704 29.104 100.384C21.424 95.968 15.328 89.872 10.816 82.096C6.39999 74.32 4.19199 65.536 4.19199 55.744C4.19199 45.952 6.39999 37.168 10.816 29.392C15.328 21.52 21.424 15.424 29.104 11.104C36.784 6.68798 45.28 4.47998 54.592 4.47998C65.248 4.47998 74.656 7.11998 82.816 12.4C91.072 17.68 97.072 25.12 100.816 34.72H85.12Z" stroke="#FEFBFB" stroke-width="5"/>
+<path d="M180.494 83.68H136.718L128.654 106H114.83L151.118 6.20798H166.238L202.382 106H188.558L180.494 83.68ZM176.75 73.024L158.606 22.336L140.462 73.024H176.75Z" stroke="#FEFBFB" stroke-width="5"/>
+<path d="M231.301 95.344H266.437V106H218.197V5.63198H231.301V95.344Z" stroke="#FEFBFB" stroke-width="5"/>
+<path d="M293.458 95.344H328.594V106H280.354V5.63198H293.458V95.344Z" stroke="#FEFBFB" stroke-width="5"/>
+<path d="M355.614 16.288V49.84H392.19V60.64H355.614V95.2H396.51V106H342.51V5.48798H396.51V16.288H355.614Z" stroke="#FEFBFB" stroke-width="5"/>
+<path d="M469.186 106L445.282 64.96H429.442V106H416.338V5.63198H448.738C456.322 5.63198 462.706 6.92798 467.89 9.51998C473.17 12.112 477.106 15.616 479.698 20.032C482.29 24.448 483.586 29.488 483.586 35.152C483.586 42.064 481.57 48.16 477.538 53.44C473.602 58.72 467.65 62.224 459.682 63.952L484.882 106H469.186ZM429.442 54.448H448.738C455.842 54.448 461.17 52.72 464.722 49.264C468.274 45.712 470.05 41.008 470.05 35.152C470.05 29.2 468.274 24.592 464.722 21.328C461.266 18.064 455.938 16.432 448.738 16.432H429.442V54.448Z" stroke="#FEFBFB" stroke-width="5"/>
+<path d="M574.219 5.63198L541.531 68.128V106H528.427V68.128L495.595 5.63198H510.139L534.907 56.464L559.675 5.63198H574.219Z" stroke="#FEFBFB" stroke-width="5"/>
+</svg>
+
+
+
+<!-- <svg viewbox="0 0 3840 7000" width="100%" height="100%" preserveAspectRatio="xMinYMin meet">581 -->
+
+
+
+	<!-- <div class="main">
+  <div class = "border">
+    <div class = "inner-cutout"> 
+      <h1 class="knockout">gallery</h1>
+    </div>
+  </div>
+</div> -->
+	<div class="swiper-container" >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img1.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img2.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img3.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img4.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img5.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img6.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img7.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img8.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img9.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img10.jpg">
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="imgBx">
+      		<img src="images\img11.jpg">
+      	</div>
+      </div>
+      
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Buttons -->
+     <div class="swiper-button-next"></div>
+
+    <div class="swiper-button-prev"></div>
+    
+    
+  </div>
+  <!-- swiper js -->
+
+	<script type="text/javascript" src="swiper.min.js"></script>
+
+  <!-- initialise swiper -->
+
+ <script>
+var swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  spaceBetween: 0,
+  speed: 600,
+  loop: true,
+  keyboard: {
+
+        enabled: true,
+
+      },
+  // keyboardControl: true,
+  // paginationClikable:true,
+  // nextButton: '#banner .swiper-button-next',
+  // prevButton: '#banner .swiper-button-prev',
+  coverflowEffect: {
+    rotate: 60,
+    stretch: 0,
+    depth: 700,
+    modifier: 1,
+    slideShadows : true,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+
+        nextEl: '.swiper-button-next',
+
+        prevEl: '.swiper-button-prev',
+
+      },
+});
+</script>
+</body>
+</html>
